@@ -30,13 +30,13 @@ const Navbar = () => {
             </div>
             <ul className={location.pathname != '/' ? 'hidden' : 'hidden lg:flex gap-12 font-bold'}>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#">Uyge</a>
                 </li>
                 <li>
-                    <a href="#blogs">Blogs</a>
+                    <a href="#blogs">Bloglar</a>
                 </li>
                 <li>
-                    <a href="#my-successes">My successes</a>
+                    <a href="#my-successes">Tabıslarım</a>
                 </li>
             </ul>
             <div className={location.pathname != '/' ? 'hidden' : 'lg:hidden'} onClick={() => setMenu(prev => !prev)}>
@@ -44,13 +44,13 @@ const Navbar = () => {
             </div>
             <ul className={menu ? 'ease-in-out duration-200 font-bold flex flex-col gap-4 items-center justify-center py-10 absolute top-full right-0 bg-sky-500/95 w-full' : 'hidden'} onClick={() => setMenu(false)}>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#">Uyge</a>
                 </li>
                 <li>
-                    <a href="#blogs">Blogs</a>
+                    <a href="#blogs">Bloglar</a>
                 </li>
                 <li>
-                    <a href="#my-successes">My successes</a>
+                    <a href="#my-successes">Tabıslarım</a>
                 </li>
             </ul>
             </div>

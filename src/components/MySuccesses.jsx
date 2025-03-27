@@ -34,7 +34,7 @@ const MySuccesses = () => {
   return (
     <div id='my-successes' className='bg-[#008000]'>
         <div className='max-w-[1280px] h-full mx-auto py-12 px-4 lg:px-0'>
-            <p className="py-4 text-center text-white text-3xl">My Successes</p>
+            <p className="py-4 text-center text-white text-3xl">Tabıslarım</p>
             <LightGallery
                 plugins={[lgZoom]}
                 pager={false}

@@ -9,13 +9,13 @@ const Hero = () => {
             <img src={bioImg} alt="Profile-image" />
         </div>
         <div className='font-bold flex flex-col gap-3 items-center'>
-            <p className=' text-center text-gray-500'>Hello, I'm</p>
+            <p className=' text-center text-gray-500'>Sálem, men</p>
             <h1 className='text-5xl text-center'>Gulbaxar Begdullaevna</h1>
             <p className='text-gray-500 text-3xl text-center'>PhD</p>
             <div className='flex gap-3 mt-2'>
                 {/* <Link to='my-projects' className='p-4 border-2 border-neutral-800 rounded-full text-neutral-800'>My Projects</Link> */}
-                <button className='p-4 border-2 border-neutral-800 rounded-full text-neutral-800 cursor-pointer'>My Projects</button>
-                <Link to='about-me' className='p-4 border-2 border-neutral-800 rounded-full bg-neutral-800 text-white'>About Me</Link>
+                <button className='p-4 border-2 border-neutral-800 rounded-full text-neutral-800 cursor-pointer'>Joybarlarım</button>
+                <Link to='about-me' className='p-4 border-2 border-neutral-800 rounded-full bg-neutral-800 text-white'>Men haqimda</Link>
             </div>
             <div>
                 <ul className='flex gap-4 mt-3'>

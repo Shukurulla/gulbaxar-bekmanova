@@ -41,7 +41,7 @@ const Login = () => {
               <label htmlFor="password">Password</label>
               <input {...register("password")} className='ring-1 ring-inset ring-gray-300 rounded-md border-0 focus:ring-indigo-600 shadow-sm py-1.5 px-2 outline-none' type="password" id='password' required />
           </div>
-          <button className='bg-indigo-600 rounded-md text-white p-1.5 font-semibold'>Login to dashboard</button>
+          <button className='bg-indigo-600 rounded-md text-white p-1.5 font-semibold'>Jumıs stoliga kirisiw</button>
       </form>
 
       <Toaster />
